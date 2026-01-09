@@ -1,20 +1,21 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import ContactUs from "./src/screens/ContactUsScreen";
+import GetStartedScreen from "./src/screens/GetStartedScreen";
+import IntroScreen from "./src/screens/IntroScreen";
+import MeditationsScreen from "./src/screens/MeditationsScreen";
+import PaymentScreen from "./src/screens/PaymentScreen";
+import ShoppingScreen from "./src/screens/ShoppingScreen";
+import SignInScreen from "./src/screens/SignInScreen";
+import SplashScreen from "./src/screens/SplashScreen";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <IntroScreen />
+    // <ContactUs />
+    // <MeditationsScreen />
+    // <PaymentScreen />
+    // <SplashScreen />
+    // <SignInScreen />
+    // <GetStartedScreen />
+    // <ShoppingScreen />
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
